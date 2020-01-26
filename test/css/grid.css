@@ -1,0 +1,10 @@
+.div {
+  display: grid;
+  grid-template: repeat(1, 100px)/repeat(3, 1fr);
+}
+
+.div > * {
+  height: 100px;
+}
+
+/*# sourceMappingURL=grid.css.map */

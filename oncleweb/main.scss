@@ -1,0 +1,46 @@
+@import "./utils/variables";
+@import "./utils/functions";
+@import "./utils/mixins";
+@import "./utils/extensions";
+@import "./base/base";
+@import "./base/typography";
+@import "./components/buttons";
+@import "./layouts/header";
+@import "./layouts/nav";
+@import "./layouts/container";
+@import "./layouts/form";
+@import "./pages/work";
+@import "./pages/about";
+@import "./pages/project";
+
+
+body:not(#pound){
+  header{
+    padding:0;
+    display:grid;
+    grid-template:repeat(1, 100px) / 2fr 8fr 2fr;
+    >*{height:100%;}
+    border-bottom: solid;
+    box-shadow: 0 0 10px 1px;
+    menu,menu>ul>li{margin:0;padding:0;}
+    menu>ul>li img{height:70px}
+    menu{}
+    menu .logo{position: absolute;left:0;}
+    menu>ul{height: 100%;display:flex;justify-content: flex-end;}
+    menu>ul>li:not(.logo){display:flex;align-items:center;width: 20%;}
+    menu>ul>li:last-of-type{margin-right: 5em;}
+    menu>ul>li>a{width:100%;text-align: center;}
+  }
+  nav{
+
+  }
+  main{
+
+  }
+  footer{
+
+  }
+}
+
+
+.offset3{}

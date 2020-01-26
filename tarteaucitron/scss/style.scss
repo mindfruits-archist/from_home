@@ -1,0 +1,102 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C300italic%2C400italic%2C700italic&subset=latin%2Clatin-ext&ver=1.0.0';
+html{--mf-vert: #a5cd6e;}
+body.RGPD {
+  position: fixed;
+  width: 100%;
+}
+#tarteaucitronRoot:not(#ok):not(#okok){
+    bottom: 0;
+    background: rgba(255, 255, 255, .25);
+    z-index: 99999999;
+    #tarteaucitronAlertBig{
+        display: block;
+        left: 20%;
+        top: 10%;
+        width: 60%;
+        bottom: 10%;
+        border-radius: 3px;
+        box-shadow: 0 0 5em 1em;
+        background: url(https://www.mindfruits.biz/wp-content/uploads/2017/06/mindfruits.png) no-repeat 2% 90%, url(/wp-includes/tarteaucitron/banner-cookies-sm_.png) no-repeat 100% 100%, #333;
+        .tarteaucitronAlertBigWrapper{
+            >*{
+                position: absolute;
+                left: 0;
+                right: 0;
+                text-align: center !important;
+            }
+            #tarteaucitronDisclaimerAlert{
+              top: 2%;
+              bottom: 30%;
+              padding-bottom: 2em;
+              overflow: hidden;
+              overflow-y:scroll;
+              font-size: 1.25em;
+              border-bottom: 1px solid gray;
+              /*
+              &::before {
+                  content: "";
+                  position: absolute;
+                  bottom: -10px;
+                  left: 0;
+                  right: 0;
+                  box-shadow: 0 0 50px 10px;
+              }
+              */
+              >*{color:white;margin-bottom:1em !important;text-align: center;font-family: Raleway, sans-serif !important;}
+              >b{
+                color: var(--mf-vert);
+                font-size: 2.5rem;
+                border-bottom: 1px double var(--mf-vert);
+                padding-bottom: .5em;
+                display: block;
+                box-shadow: 0 0 10px 1px gray;
+              }
+              >p{
+                margin: 0 auto 1.5em;
+                width: 90%;
+                font-size: 1.5rem;
+                text-shadow: 0 4px 1px black, 0 5px 3px rgba(255,255,255,.25);
+              }
+              @media screen and (max-width: 767px){
+                >b{font-size:1.2em;}
+                >p{font-size:.8em;}
+              }
+            }
+            .tarteaucitronAlertBigBtnWrapper_p{bottom: 1rem;}
+        }
+    }
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------/
+/---------------------------------------------media-queries bootstrap model ------------------------------------------------------------/
+/---------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 575px) {
+
+}
+@media screen and (min-width: 576px) and  (max-width: 767px){
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+}
+@media screen and (min-width: 1200px){
+
+}
+@media screen and (max-width: 767px){}
+@media screen and (max-width: 991px){}
+@media screen and (max-width: 1200px){}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 576px) and  (max-width: 991px){}
+@media screen and (min-width: 576px) and  (max-width: 1200px){}
+@media screen and (min-width: 767px) and  (max-width: 1200px){}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 575px){}
+@media screen and (min-width: 767px){}
+@media screen and (min-width: 991px){}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/

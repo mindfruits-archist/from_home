@@ -1,0 +1,8 @@
+body:not(#pound) {
+  background: whitesmoke;
+}
+body:not(#pound) .top-bar, body:not(#pound) .top-bar ul {
+  background: transparent;
+}
+
+/*# sourceMappingURL=eject.css.map */

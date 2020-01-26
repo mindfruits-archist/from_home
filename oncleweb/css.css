@@ -1,0 +1,52 @@
+body:not(#pound) {
+  background: whitesmoke;
+}
+body:not(#pound) .top-bar, body:not(#pound) .top-bar ul {
+  background: transparent;
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+body:not(#pound) header {
+  padding: 0;
+  display: grid;
+  grid-template: repeat(1, 100px)/2fr 8fr 2fr;
+  border-bottom: solid;
+  box-shadow: 0 0 10px 1px;
+}
+body:not(#pound) header > * {
+  height: 100%;
+}
+body:not(#pound) header menu, body:not(#pound) header menu > ul > li {
+  margin: 0;
+  padding: 0;
+}
+body:not(#pound) header menu > ul > li img {
+  height: 70px;
+}
+body:not(#pound) header menu .logo {
+  position: absolute;
+  left: 0;
+}
+body:not(#pound) header menu > ul {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+body:not(#pound) header menu > ul > li:not(.logo) {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+body:not(#pound) header menu > ul > li:last-of-type {
+  margin-right: 5em;
+}
+body:not(#pound) header menu > ul > li > a {
+  width: 100%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=css.css.map */
