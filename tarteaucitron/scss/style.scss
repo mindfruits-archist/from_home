@@ -4,7 +4,7 @@ body.RGPD {
   position: fixed;
   width: 100%;
 }
-#tarteaucitronRoot:not(#ok):not(#okok){
+body.RGPD #tarteaucitronRoot:not(#ok):not(#okok){
     bottom: 0;
     background: rgba(255, 255, 255, .25);
     z-index: 99999999;
@@ -16,7 +16,7 @@ body.RGPD {
         bottom: 10%;
         border-radius: 3px;
         box-shadow: 0 0 5em 1em;
-        background: url(https://www.mindfruits.biz/wp-content/uploads/2017/06/mindfruits.png) no-repeat 2% 90%, url(/wp-includes/tarteaucitron/banner-cookies-sm_.png) no-repeat 100% 100%, #333;
+        //background: url(https://www.mindfruits.biz/wp-content/uploads/2017/06/mindfruits.png) no-repeat 2% 90%, url(/wp-includes/tarteaucitron/banner-cookies-sm_.png) no-repeat 100% 100%, #333;
         .tarteaucitronAlertBigWrapper{
             >*{
                 position: absolute;
@@ -26,7 +26,7 @@ body.RGPD {
             }
             #tarteaucitronDisclaimerAlert{
               top: 2%;
-              bottom: 30%;
+              bottom: 20%;
               padding-bottom: 2em;
               overflow: hidden;
               overflow-y:scroll;
@@ -49,13 +49,13 @@ body.RGPD {
                 border-bottom: 1px double var(--mf-vert);
                 padding-bottom: .5em;
                 display: block;
-                box-shadow: 0 0 10px 1px gray;
+                //box-shadow: 0 0 10px 1px gray;
               }
               >p{
                 margin: 0 auto 1.5em;
                 width: 90%;
                 font-size: 1.5rem;
-                text-shadow: 0 4px 1px black, 0 5px 3px rgba(255,255,255,.25);
+                //text-shadow: 0 4px 1px black, 0 5px 3px rgba(255,255,255,.25);
               }
               @media screen and (max-width: 767px){
                 >b{font-size:1.2em;}
